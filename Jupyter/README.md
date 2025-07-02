@@ -83,3 +83,24 @@ The following sections include:
 - **Summary:**  
   `this is a detailed photo showing the damage to the fuselage of the aircraft`
 
+## Testing the Original Code with 10 Epochs
+
+To further evaluate the provided IBM code, I also ran it for **10 epochs** instead of the original 5.  
+This allowed me to compare how extending the training duration impacts loss and accuracy.
+
+Below you can see the performance plots:
+
+### 📉 Training Loss (Loss/Epoch)
+![Training Loss](images/Figure_1.1.png)
+
+### 📉 Validation Loss (Loss/Epoch)
+![Validation Loss](images/Figure_2.1.png)
+
+### 📈 Accuracy Curve
+![Accuracy Curve](images/Figure_3.1.png)
+
+Running the same architecture for 10 epochs yielded:
+- **Test Loss:** 0.6356  
+- **Test Accuracy:** 0.7812  
+
+This shows a clear improvement compared to the original 5-epoch run.
